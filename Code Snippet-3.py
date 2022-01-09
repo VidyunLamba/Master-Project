@@ -23,7 +23,7 @@ def rsa_signer(message):
     return private_key.sign(message, padding.PKCS1v15(), hashes.SHA1())
 #Key ID and URL generated in the CloudFront distribution
 key_id = 'XXXXXXXX'
-url = 'https://d3i0jfvyqwt1c5.cloudfront.net/vid.txt'
+url = 'https://XXXXX.cloudfront.net/XXXXX.txt'
 # mention the expiry date for the singed CloudFront URL
 expire_date = datetime.datetime(2021, 12, 12)
 
