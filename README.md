@@ -9,4 +9,3 @@ python3.9 XXXXX.py
 
 where XXXXX is filename
 
-The link to watch the demo is here :
