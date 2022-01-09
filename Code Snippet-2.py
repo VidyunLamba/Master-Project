@@ -11,8 +11,8 @@ import webbrowser
 # Access KEY ID and Secret Access Key is used for the apisuer created using IAM services
 # Define AWS region and timeperiod for the URL validity
 # To resue the script, replace the access key ID, secret acccess key and default region as configured in AWS cloud
-AWS_ACCESS_KEY_ID = 'AKIA27IECGOXJBUPZWDI'
-AWS_SECRET_ACCESS_KEY = 'ctAP3P2vf3uCCKZj4RsgnA1XuT0o5uFpNb1bo3Fl'
+AWS_ACCESS_KEY_ID = 'XXXXXXXX'
+AWS_SECRET_ACCESS_KEY = 'XXXXXXXX'
 AWS_DEFAULT_REGION = 'us-east-1'
 
 def create_presigned_url(bucket_name, bucket_key, expiration, signature_version):
